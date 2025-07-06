@@ -15,8 +15,8 @@ I’ll use my machine (Windows 11) and PostgreSQL (PgAdmin) as the OS and RDBMS 
 
 With all these requirements fulfilled, you can follow the tutorial below:
 
-## Step-by-step
-**1. Clone the repository to your machine**
+### Step-by-step
+#### Clone the repository to your machine
 
 After creating/finding the directory you want to use for this repository, open a command terminal and download the project to your local machine:
 
@@ -31,7 +31,7 @@ cd brazilian-e-commerce
 
 If the repository is different, just replace the links and folder name accordingly.
 
-**2. Find the .rar file to extract the data**
+#### Find the .rar file to extract the data
 
 The `brazilian_e-commerce_dataset.rar` file is located at `/docs` folder in the repository.
 
@@ -39,7 +39,7 @@ Right-click the file and select `Extract all...`. You will get a folder with the
 
 ![Image 1](/images/094210.png)
 
-**3. Create all the tables**
+#### Create all the tables
 
 Open the `_tables.sql` file and execute all the queries inside, one at a time (avoid running everything simultaneously). Pay attention to the order:
 
@@ -48,7 +48,7 @@ Open the `_tables.sql` file and execute all the queries inside, one at a time (a
 - Similarly, you must create the data type `payment_type_enum` before creating `order_payments`;
 - After that, you can create the remaining tables: `order_items` and `order_reviews`.
 
-**4. Populate the tables**
+#### Populate the tables
 
 Once the tables are created, you’ll import data into each of them. Each table corresponds directly to a `.csv` file of the same name. That is, you’ll perform eight separate imports.
 
@@ -63,6 +63,7 @@ Ensure the import option is configured with the following settings in your RDBMS
 - Quote: `"`
 - Escape: `'`
 - Null: ` `
+
 In the image below, you can see the PgAdmin example for PostgreSQL:
 
 ![Image 3](/images/161603.png)
@@ -73,7 +74,7 @@ If everything is correct, go back to the main screen and select the `.csv` file 
 
 Repeat this process for all other tables. As the data was previously cleaned to be imported without conflicts, errors are unlikely. If any error persists, restart your RDBMS and try again.
 
-**Optional: Fill out the dotenv file**
+#### Optional: Fill out the dotenv file
 
 This step is essential to enable creating `.csv` files from Python scripts and building dashboards.
 

@@ -1,6 +1,6 @@
 Esse projeto também tem uma versão em Inglês: [Read In English :us: :uk:](/README.md)
 
-# 🌍 E-Commerce Brasileiro (Olist Store)
+# 🌍 Comércio Digital Brasileiro (Olist Store)
 
 Este projeto utiliza o dataset [Brazilian E-Commerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) para fins de **estudo**, **documentação** e **demonstração de habilidades técnicas** em **SQL, Python e Power BI**. Trata-se de um projeto pessoal, mas estruturado para servir de portfólio público.
 
@@ -91,6 +91,10 @@ Você encontrará meus contatos no `README` do meu perfil aqui no Github: [githu
 ---
 
 ## Se leu até aqui:
-Desde já, agradeço pela atenção.
+Desde já, agradeço pela tempo e atenção. Estou à disposição caso queira entrar em contato.
 
-Sigo à disposição para contato.
+Logo abaixo está outro projeto em que trabalhei. Fique à vontade para consultar:
+
+| Tipo de projeto | Nome | Repositório |
+| - | - | - |
+| Dataset do site Kaggle | Ataques Terroristas no Mundo | [global-terrorism-events](https://github.com/jaxolv/global-terrorism-events) |

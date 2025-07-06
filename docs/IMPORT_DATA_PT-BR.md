@@ -17,7 +17,7 @@ Com todos esses requisitos preenchidos, você poderá seguir o tutorial a seguir
 
 ### Passo-a-passo
 
-**1. Clone o repositório na sua máquina**
+#### Clone o repositório na sua máquina
 
 Após criar/encontrar o diretório que deseja usar para este repositório, abra um terminal de comando e baixe o projeto na sua máquina local:
 
@@ -32,7 +32,7 @@ cd brazilian-e-commerce
 
 Caso o repositório seja outro, apenas substitua os links e o nome da pasta criada.
 
-**2. Encontre o arquivo `.rar` para extração dos dados**
+#### Encontre o arquivo `.rar` para extração dos dados
 
 O arquivo `brazilian_e-commerce_dataset.rar` estará dentro da pasta `/docs` no repositório.
 
@@ -40,7 +40,7 @@ Clique com o botão direito do seu cursor e depois em `Extrair tudo...`. Você t
 
 ![Imagem 1](/images/094210.png)
 
-**3. Crie todas as tabelas**
+#### Crie todas as tabelas
 
 Abra o arquivo `_tables.sql` e execute todas as queries lá presentes, uma de cada vez (evite executar tudo simultaneamente). Mas atente-se à ordem:
 
@@ -49,7 +49,7 @@ Abra o arquivo `_tables.sql` e execute todas as queries lá presentes, uma de ca
 - De mesma forma, você deve criar o tipo de dado `payment_type_enum` para criar `order_payments`;
 - Assim, você poderá criar as tabelas restantes: `order_items` e `order_reviews`.
 
-**4. Popule as tabelas**
+#### Popule as tabelas
 
 Depois de criada as tabelas, você agora importará em cada uma delas todos os dados. Cada tabela está relacionada diretamente ao arquivo `.csv` de mesmo nome. Ou seja, serão feitas oito importações diferentes.
 
@@ -64,6 +64,7 @@ Certifique-se de que a opção de importação esteja marcada com as seguintes c
 - Quote: `"`
 - Escape: `'`
 - Null: ` `
+
 Na imagem abaixo você pode ver o exemplo do PgAdmin para PostgreSQL:
 
 ![Imagem 3](/images/161603.png)
@@ -74,7 +75,7 @@ Caso tudo esteja certo, volte para a tela principal e escolha o arquivo `.csv` r
 
 Esse mesmo procedimento será feito para todas as demais tabelas. Como os dados foram tratados anteriormente para que pudessem ser importados sem conflitos, a tendência é de que não ocorram mais erros. Caso algum erro persista, reinicie o SGBD e tente novamente.
 
-**Opcional: preencha o arquivo dotenv**
+#### Opcional: preencha o arquivo dotenv
 
 Esse passo é essencial para que seja possível criar arquivos `.csv` a partir dos scripts em Python e então montar dashboards.
 
