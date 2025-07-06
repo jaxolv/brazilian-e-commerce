@@ -38,7 +38,7 @@ O arquivo `brazilian_e-commerce_dataset.rar` estará dentro da pasta `/docs` no 
 
 Clique com o botão direito do seu cursor e depois em `Extrair tudo...`. Você terá uma pasta com os seguintes arquivos conforme esta imagem abaixo onde um deles é no formato `.sql` e os demais no formato `.csv`:
 
-![Imagem 1](images/094210.png)
+![Imagem 1](/images/094210.png)
 
 **3. Crie todas as tabelas**
 
@@ -57,7 +57,7 @@ No caso de usar PostgreSQL, você deve ir ao banco de dados criado e então enco
 
 Em cada uma delas, você deve clicar com o botão direito e encontrar a opção de importar. Pode estar escrito `Import/Export Data...`, como na imagem abaixo, ou apenas `Import...`, a depender do SGBD de sua preferência.
 
-![Imagem 2](images\100627.png)
+![Imagem 2](/images\100627.png)
 
 Certifique-se de que a opção de importação esteja marcada com as seguintes configurações no seu SGBD:
 - Delimiter: `;`
@@ -66,11 +66,11 @@ Certifique-se de que a opção de importação esteja marcada com as seguintes c
 - Null: ` `
 Na imagem abaixo você pode ver o exemplo do PgAdmin para PostgreSQL:
 
-![Imagem 3](images/161603.png)
+![Imagem 3](/images/161603.png)
 
 Caso tudo esteja certo, volte para a tela principal e escolha o arquivo `.csv` respectivo ao nome da tabela.
 
-![Imagem 4](images/161655.png)
+![Imagem 4](/images/161655.png)
 
 Esse mesmo procedimento será feito para todas as demais tabelas. Como os dados foram tratados anteriormente para que pudessem ser importados sem conflitos, a tendência é de que não ocorram mais erros. Caso algum erro persista, reinicie o SGBD e tente novamente.
 
@@ -95,6 +95,6 @@ Então, informe no arquivo `.env` presente no diretório principal do projeto os
 
 Tome como referência o arquivo `.env.example` para preenchimento. Depois do sinal de igualdade, não use aspas (`"`), aspas simples (`'`) ou qualquer outro formato de texto. Apenas informe o dado logo após o sinal de igualdade, conforme o exemplo abaixo:
 
-![Imagem 5](images/094922.png)
+![Imagem 5](/images/094922.png)
 
 Caso resolva subir esse projeto no seu Github, certifique-se de estar registrado `.env` no arquivo `.gitignore` para que esses dados não subam junto ao seu repositório.

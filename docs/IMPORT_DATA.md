@@ -37,7 +37,7 @@ The `brazilian_e-commerce_dataset.rar` file is located at `/docs` folder in the 
 
 Right-click the file and select `Extract all...`. You will get a folder with the following files as shown in the image below, where one is in `.sql` format and the others in `.csv` format:
 
-![Image 1](images/094210.png)
+![Image 1](/images/094210.png)
 
 **3. Create all the tables**
 
@@ -56,7 +56,7 @@ If using PostgreSQL, go to the created database and locate the tables you just c
 
 Right-click each one and look for the import option. It might be labeled `Import/Export Data...`, as shown in the image below, or simply `Import...`, depending on your RDBMS.
 
-![Image 2](images\100627.png)
+![Image 2](/images/100627.png)
 
 Ensure the import option is configured with the following settings in your RDBMS:
 - Delimiter: `;`
@@ -65,11 +65,11 @@ Ensure the import option is configured with the following settings in your RDBMS
 - Null: ` `
 In the image below, you can see the PgAdmin example for PostgreSQL:
 
-![Image 3](images/161603.png)
+![Image 3](/images/161603.png)
 
 If everything is correct, go back to the main screen and select the `.csv` file corresponding to the table name.
 
-![Image 4](images/161655.png)
+![Image 4](/images/161655.png)
 
 Repeat this process for all other tables. As the data was previously cleaned to be imported without conflicts, errors are unlikely. If any error persists, restart your RDBMS and try again.
 
@@ -95,6 +95,6 @@ Then, fill in the `.env` file located in the project’s root directory with the
 
 Use the `.env.example` file as a reference. Do not use double quotes ("), single quotes ('), or any other text formatting after the equal sign. Just type the data directly after the equal sign, as shown in the example below:
 
-![Image 5](images/094922.png)
+![Image 5](/images/094922.png)
 
 If you decide to upload this project to your GitHub, make sure the `.env` file is listed in `.gitignore` so this sensitive data doesn’t get uploaded with the repository.
