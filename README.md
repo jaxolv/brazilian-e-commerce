@@ -64,12 +64,12 @@ README.md           # You are here!
 ---
 
 ## 🧠 SQL Challenges Content
-The challenges are organized by difficulty level, ranging from basic to advanced. The last 20 questions are completely in english. If you want to see them in more detail, click [here](sql/DISCLAIMER.md) to go directly to the page with all the questions.
+The challenges are organized by difficulty level, ranging from basic to advanced. The last 20 questions are completely in english. If you want to see them in more detail, click [here](/sql/CHALLENGES.md) to go directly to the page with all the questions.
 
 ---
 
 ## 🧮 Importing the Dataset to Your Local Machine
-In case you want to practice or only run the queries here uploaded on your local machine, follow these steps [clicking here](docs/IMPORT_DATA.md).
+In case you want to practice or only run the queries here uploaded on your local machine, follow these steps [clicking here](/docs/IMPORT_DATA.md).
 
 ---
 

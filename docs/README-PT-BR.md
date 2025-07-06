@@ -66,12 +66,12 @@ README.md           # Você está aqui!
 ---
 
 ## 🧠 Conteúdo dos Desafios SQL
-Os desafios foram organizados em níveis de dificuldade, indo do mais básico ao mais avançado. Caso queira ver com mais detalhes, clique [aqui](sql/DESAFIOS.md) para ir diretamente à página contendo todas as questões.
+Os desafios foram organizados em níveis de dificuldade, indo do mais básico ao mais avançado. Caso queira ver com mais detalhes, clique [aqui](/sql/DESAFIOS.md) para ir diretamente à página contendo todas as questões.
 
 ---
 
 ## 🧮 Importando o Dataset para Sua Máquina Local
-Caso queira praticar ou apenas executar as queries aqui postadas em sua máquina local, siga este passo-a-passo [clicando aqui](docs/IMPORT_DATA_PT-BR.md).
+Caso queira praticar ou apenas executar as queries aqui postadas em sua máquina local, siga este passo-a-passo [clicando aqui](/docs/IMPORT_DATA_PT-BR.md).
 
 ---
 
@@ -83,7 +83,7 @@ Abaixo serão adicionadas imagens de dashboards criados no Power BI como exemplo
 
 ## 📌 Avisos
 1) Este projeto é educacional e não possui fins comerciais. As análises foram produzidas com base em dados públicos do Kaggle, e servem como demonstração de habilidades técnicas.
-2) Caso queira, você pode baixar os documentos que usei para este projeto, incluindo os desafios em PDF. Todos estão no arquivo `.rar` em [docs](docs), incluindo os CSVs das tabelas adaptadas para esse projeto.
+2) Caso queira, você pode baixar os documentos que usei para este projeto, incluindo os desafios em PDF. Todos estão no arquivo `.rar` em [docs](/docs), incluindo os CSVs das tabelas adaptadas para esse projeto.
 
 ## 📬 Contato
 Você encontrará meus contatos no `README` do meu perfil aqui no Github: [github.com/jaxolv](https://github.com/jaxolv)
