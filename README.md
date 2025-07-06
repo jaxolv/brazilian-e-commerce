@@ -64,7 +64,7 @@ README.md           # You are here!
 ---
 
 ## 🧠 SQL Challenges Content
-The challenges are organized by difficulty level, ranging from basic to advanced. The last 20 questions are completely in english. If you want to see them in more detail, click [here](/sql/CHALLENGES.md) to go directly to the page with all the questions.
+The challenges are organized by difficulty level, ranging from intermediate to advanced. If you want to see them in more detail, click [here](/sql/CHALLENGES.md) to go directly to the page with all the questions.
 
 ---
 
