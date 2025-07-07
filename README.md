@@ -1,4 +1,4 @@
-This project also has a portuguese version: [Leia em Português :brazil:](docs/README-PT-BR.md)
+This project has a portuguese version: [Leia em Português :brazil:](docs/README-PT-BR.md)
 
 # 🌍 Brazilian E-Commerce from Olist Store
 

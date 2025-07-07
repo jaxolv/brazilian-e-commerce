@@ -1,9 +1,13 @@
+This tutorial has a portuguese version: [Leia em Português :brazil:](/docs/IMPORT_DATA_PT-BR.md)
+
 ## Importing the Dataset to Your Local Machine
 Below is a guide on how you can use this same dataset on your machine to:
 - Test the queries updated here;
 - Solve the challenges described in this project yourself.
 
 I’ll use my machine (Windows 11) and PostgreSQL (PgAdmin) as the OS and RDBMS references.
+
+**Note:** this tutorial was made for the project [Brazilian E-Commerce](https://www.github.com/jaxolv/brazilian-e-commerce) but it applies to other [repositories that I made](https://github.com/jaxolv?tab=repositories), but pay attention to the changes.
 
 ### Requirements
 - Git installed;
@@ -33,24 +37,29 @@ If the repository is different, just replace the links and folder name according
 
 #### Find the .rar file to extract the data
 
-The `brazilian_e-commerce_dataset.rar` file is located at `/docs` folder in the repository.
+In the directory `/docs` you will find, besides the files `.md`, the compacted files in the `.zip`and `.rar` formats. One of them will be named `archive.zip`, that's the original file downloaded from Kaggle and this is the default tittle for all the datasets from this site. My recommendation is to neve extracted the data from there, except if you choose to treat the data and create other tables based on them.
 
-Right-click the file and select `Extract all...`. You will get a folder with the following files as shown in the image below, where one is in `.sql` format and the others in `.csv` format:
+The compacted file will have a specific tittle for the project. With the format `.rar`, you'll have the data treated by me and all the *polution* were removed before the creation of the tables to prevent conflicts of type, data insertion and duplicity. This is the file that you will extract the data to import.
+
+After the extraction, you have to find something that looks like this *screenshot*:
 
 ![Image 1](/images/094210.png)
 
 #### Create all the tables
 
-Open the `_tables.sql` file and execute all the queries inside, one at a time (avoid running everything simultaneously). Pay attention to the order:
+Open the `_tables.sql` file and execute all the queries inside, one at a time (avoid running everything simultaneously).
 
+In the case of this specific project, the creation order has to respected in this sequence:
 - First, create the tables `customers`, `sellers`, and `products`;
 - Then, you must create the data type `order_status_enum` before creating the `order` table;
 - Similarly, you must create the data type `payment_type_enum` before creating `order_payments`;
 - After that, you can create the remaining tables: `order_items` and `order_reviews`.
 
+In the other repository, you can create the tables in any order you want.
+
 #### Populate the tables
 
-Once the tables are created, you’ll import data into each of them. Each table corresponds directly to a `.csv` file of the same name. That is, you’ll perform eight separate imports.
+Once the tables are created, you’ll import data into each of them. Each table corresponds directly to a `.csv` file of the same name.
 
 If using PostgreSQL, go to the created database and locate the tables you just created.
 
@@ -72,7 +81,7 @@ If everything is correct, go back to the main screen and select the `.csv` file 
 
 ![Image 4](/images/161655.png)
 
-Repeat this process for all other tables. As the data was previously cleaned to be imported without conflicts, errors are unlikely. If any error persists, restart your RDBMS and try again.
+Repeat this process for all other tables. Conflicts will be unlikely, but if any error persists, restart your RDBMS and try again.
 
 #### Optional: Fill out the dotenv file
 

@@ -1,4 +1,4 @@
-Esse projeto também tem uma versão em Inglês: [Read In English :us: :uk:](/README.md)
+Esse projeto tem uma versão em Inglês: [Read In English :us: :uk:](/README.md)
 
 # 🌍 Comércio Digital Brasileiro (Olist Store)
 
