@@ -1,3 +1,5 @@
+These challenges can be read in English: [Leia em Português :brazil:](/sql/DESAFIOS.md)
+
 # 📦 SQL Challenges – Brazilian E-Commerce Dataset (Kaggle)
 
 This document presents 30 SQL challenges based on the Brazilian e-commerce dataset by Olist, structured across three difficulty levels (Mid to Senior), focused on analytical queries involving multiple tables, filters, metrics, and temporal logic.

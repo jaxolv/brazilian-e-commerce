@@ -88,7 +88,7 @@ You'll find all my contacts in the `README` of my GitHub profile: [github.com/ja
 ---
 
 ## If you get here:
-Thank you so much for your time and attention. I'm available if you want to contact me.
+Thank you so much for your time and attention. I'm available in case of any feedback or clarifications.
 
 Here are other projects that I've worked on. Feel free to look:
 

@@ -1,3 +1,4 @@
+Esses desafios podem ser lidos em Inglês: [Read in English :us: :gb:](/sql/CHALLENGES.md)
 
 # 📦 Desafios SQL – Brazilian E-Commerce Dataset (Kaggle)
 

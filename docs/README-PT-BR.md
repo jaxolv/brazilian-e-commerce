@@ -91,7 +91,7 @@ Você encontrará meus contatos no `README` do meu perfil aqui no Github: [githu
 ---
 
 ## Se leu até aqui:
-Desde já, agradeço pela tempo e atenção. Estou à disposição caso queira entrar em contato.
+Desde já, agradeço pela tempo e atenção. Fico à disposição para qualquer dúvida ou feedback.
 
 Logo abaixo estão outros projetos em que trabalhei. Fique à vontade para consultar:
 
