@@ -90,9 +90,10 @@ You'll find all my contacts in the `README` of my GitHub profile: [github.com/ja
 ## If you get here:
 Thank you so much for your time and attention. I'm available if you want to contact me.
 
-Here are other project that I worked. Feel free to look:
+Here are other projects that I've worked on. Feel free to look:
 
 | Project type | Name | Repository |
 | - | - | - |
 | Kaggle Dataset | Global Terrorism Events | [global-terrorism-events](https://github.com/jaxolv/global-terrorism-events) |
+| Kaggle Dataset | Brazilian E-Commerce | brazilian-e-commerce |
 
