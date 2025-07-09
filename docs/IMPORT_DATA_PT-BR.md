@@ -63,7 +63,7 @@ Depois de criada as tabelas, você agora importará em cada uma delas todos os d
 
 No caso de usar PostgreSQL, você deve ir ao banco de dados criado e então encontrar as tabelas que foram criadas anteriormente.
 
-Em cada uma delas, você deve clicar com o botão direito e encontrar a opção de importar. Pode estar escrito `Import/Export Data...`, como na imagem abaixo, ou apenas `Import...`, a depender do SGBD de sua preferência.
+Em cada uma delas, você deve clicar com o botão direito e encontrar a opção de importar. Pode estar escrito `Import/Export Data...`, como na imagem abaixo, ou apenas `Import...`, a depender do SGBD de sua preferência. Importe na mesma ordem indicada para criar as tabelas.
 
 ![Imagem 2](/images/100627.png)
 

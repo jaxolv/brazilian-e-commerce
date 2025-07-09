@@ -63,7 +63,7 @@ Once the tables are created, you’ll import data into each of them. Each table 
 
 If using PostgreSQL, go to the created database and locate the tables you just created.
 
-Right-click each one and look for the import option. It might be labeled `Import/Export Data...`, as shown in the image below, or simply `Import...`, depending on your RDBMS.
+Right-click each one and look for the import option. It might be labeled `Import/Export Data...`, as shown in the image below, or simply `Import...`, depending on your RDBMS. Do it in the same order that you created the tables before.
 
 ![Image 2](/images/100627.png)
 

@@ -7,9 +7,9 @@ Este documento apresenta 30 desafios de SQL sobre o dataset de e-commerce brasil
 Os desafios estão divididos em 3 partes:
 |Nível|Desafios|
 |-|-|
-|Intermediário II|1 - 10|
-|Avançado I|11 - 20|
-|Avançado II|21 - 30|
+|[Intermediário II](#intermediário-ii)|1 - 10|
+|[Avançado I](#avançado-i)|11 - 20|
+|[Avançado II](#avançado-ii)|21 - 30|
 
 ---
 
