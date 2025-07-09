@@ -1,0 +1,1 @@
+-- Calculate the average ticket per customer, considering only customers with more than 3 distinct orders.
