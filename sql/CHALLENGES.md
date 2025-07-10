@@ -15,7 +15,7 @@ The challenges are divided into 3 parts:
 
 ### Intermediate II
 
-1. [ ] Calculate the average ticket per customer, considering only customers with more than 3 distinct orders.  
+1. [ ] Calculate the average ticket per customer, considering only customers from São Paulo (state).
 2. [ ] List the 10 products with the highest average freight value, considering only products with at least 5 sales.  
 3. [ ] For each seller’s origin state, calculate the average time between approval and delivery to the customer.  
 4. [ ] Create a “logistics efficiency” metric per seller city, defined as: (average time between approval and delivery) / (difference in ZIP code prefixes between seller and customer).  
