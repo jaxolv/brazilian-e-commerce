@@ -15,8 +15,8 @@ Os desafios estão divididos em 3 partes:
 
 ### Intermediário II
 
-1. [ ] Calcule o ticket médio por cliente, considerando apenas clientes do estado de São Paulo.
-2. [ ] Liste os 10 produtos com maior média de valor de frete, considerando apenas produtos com pelo menos 5 vendas.
+1. [x] Calcule o ticket médio por cliente, considerando apenas clientes do estado de São Paulo. [(Resposta)](/sql/01_intermediate/c01.sql)
+2. [x] Liste os 10 produtos com maior média de valor de frete, considerando apenas produtos com pelo menos 5 vendas. [(Resposta)](/sql/01_intermediate/c02.sql)
 3. [ ] Para cada estado de origem do vendedor, calcule a média de tempo entre a aprovação e a entrega ao cliente.
 4. [ ] Crie uma métrica de “eficiência logística” por cidade do vendedor, definida como: (tempo médio entre aprovação e entrega) / (diferença de prefixos de CEP entre vendedor e cliente).
 5. [ ] Liste as categorias de produto com maior valor de venda total, desconsiderando frete.
