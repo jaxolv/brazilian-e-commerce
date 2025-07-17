@@ -1,6 +1,6 @@
 Esses desafios podem ser lidos em Inglês: [Read in English :us: :gb:](/sql/CHALLENGES.md)
 
-# 📦 Desafios SQL – Brazilian E-Commerce Dataset (Kaggle)
+# Desafios SQL – Brazilian E-Commerce Dataset (Kaggle)
 
 Este documento apresenta 30 desafios de SQL sobre o dataset de e-commerce brasileiro da Olist, estruturados em três níveis de dificuldade (Pleno a Sênior), baseados em consultas analíticas com múltiplas tabelas, filtros, métricas e lógica temporal.
 
@@ -17,7 +17,7 @@ Os desafios estão divididos em 3 partes:
 
 1. [x] Calcule o ticket médio por cliente, considerando apenas clientes do estado de São Paulo. [(Resposta)](/sql/01_intermediate/c01.sql)
 2. [x] Liste os 10 produtos com maior média de valor de frete, considerando apenas produtos com pelo menos 5 vendas. [(Resposta)](/sql/01_intermediate/c02.sql)
-3. [ ] Para cada estado de origem do vendedor, calcule a média de tempo entre a aprovação e a entrega ao cliente.
+3. [x] Para cada estado de origem do vendedor, calcule a média de tempo entre a aprovação e a entrega ao cliente. [(Resposta)](/sql/01_intermediate/c03.sql)
 4. [ ] Crie uma métrica de “eficiência logística” por cidade do vendedor, definida como: (tempo médio entre aprovação e entrega) / (diferença de prefixos de CEP entre vendedor e cliente).
 5. [ ] Liste as categorias de produto com maior valor de venda total, desconsiderando frete.
 6. [ ] Para cada tipo de pagamento, calcule a média de valor por parcela (payment_value / payment_installments).
