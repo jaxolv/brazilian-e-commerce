@@ -1,6 +1,6 @@
 Esse projeto tem uma versão em Inglês: [Read In English :us: :uk:](/README.md)
 
-# 🌍 Comércio Digital Brasileiro (Olist Store)
+# Comércio Digital Brasileiro (Olist Store)
 
 Este projeto utiliza o dataset [Brazilian E-Commerce](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce) para fins de **estudo**, **documentação** e **demonstração de habilidades técnicas** em **SQL, Python e Power BI**. Trata-se de um projeto pessoal, mas estruturado para servir de portfólio público.
 
@@ -23,7 +23,7 @@ Este projeto utiliza o dataset [Brazilian E-Commerce](https://www.kaggle.com/dat
 
 ---
 
-## 🎯 Objetivos do Projeto
+## Objetivos do Projeto
 
 - Realizar **30 desafios de SQL**, divididos em níveis de dificuldade, a partir de uma adaptação que fiz da base Brazilian E-Commerce;
 - Criar um pipeline de **ETL em Python** para manipulação e exportação dos dados;
@@ -32,9 +32,9 @@ Este projeto utiliza o dataset [Brazilian E-Commerce](https://www.kaggle.com/dat
 
 ---
 
-## 🌿 Estruturas
+## Estruturas
 
-### 🚀 Branches
+### Branches
 
 Este projeto segue um fluxo de trabalho organizado por funcionalidades:
 
@@ -48,7 +48,7 @@ Este projeto segue um fluxo de trabalho organizado por funcionalidades:
 
 ---
 
-### 📁 Diretórios
+### Diretórios
 ```
 /csv                # CSVs extraídos via script
 /dashboards         # Arquivos .pbix do Power BI
@@ -65,27 +65,27 @@ README.md           # Você está aqui!
 
 ---
 
-## 🧠 Conteúdo dos Desafios SQL
+## Conteúdo dos Desafios SQL
 Os desafios foram organizados em níveis de dificuldade, indo do intermediário ao mais avançado. Caso queira ver com mais detalhes, clique [aqui](/sql/DESAFIOS.md) para ir diretamente à página contendo todas as questões.
 
 ---
 
-## 🧮 Importando o Dataset para Sua Máquina Local
+## Importando o Dataset para Sua Máquina Local
 Caso queira praticar ou apenas executar as queries aqui postadas em sua máquina local, siga este passo-a-passo [clicando aqui](/docs/IMPORT_DATA_PT-BR.md).
 
 ---
 
 
-## 📊 Dashboards
+## Dashboards
 Abaixo serão adicionadas imagens de dashboards criados no Power BI como exemplo à medida em que eles forem sendo concluídos.
 
 ---
 
-## 📌 Avisos
+## Avisos
 1) Este projeto é educacional e não possui fins comerciais. As análises foram produzidas com base em dados públicos do Kaggle, e servem como demonstração de habilidades técnicas.
 2) Caso queira, você pode baixar os documentos que usei para este projeto, incluindo os desafios em PDF. Todos estão no arquivo `.rar` em [docs](/docs), incluindo os CSVs das tabelas adaptadas para esse projeto.
 
-## 📬 Contato
+## Contato
 Você encontrará meus contatos no `README` do meu perfil aqui no Github: [github.com/jaxolv](https://github.com/jaxolv)
 
 ---
