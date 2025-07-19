@@ -18,8 +18,8 @@ The challenges are divided into 3 parts:
 1. [x] Calculate the average ticket per customer, considering only customers from São Paulo (state). [(Resolution)](/sql/01_intermediate/c01.sql)
 2. [x] List vthe 10 products with the highest average freight value, considering only products with at least 5 sales. [(Resolution)](/sql/01_intermediate/c02.sql) 
 3. [x] For each seller’s origin state, calculate the average time between approval and delivery to the customer. [(Resolution)](/sql/01_intermediate/c03.sql)
-4. [ ] Create a “logistics efficiency” metric per seller city, defined as: (average time between approval and delivery) / (difference in ZIP code prefixes between seller and customer).
-5. [ ] List the product categories with the highest total sales value, excluding freight.
+4. [x] Create a “logistics efficiency” metric per seller city, defined as: (average time between approval and delivery) / (difference in ZIP code prefixes between seller and customer). [(Resolution)](/sql/01_intermediate/c04.sql)
+5. [x] List the product categories with the highest total sales value, excluding freight. [(Resolution)](/sql/01_intermediate/c05.sql)
 6. [ ] For each payment type, calculate the average value per installment (payment_value / payment_installments).
 7. [ ] Calculate, for each month, the percentage of orders delivered after the estimated delivery date.
 8. [ ] List the customers who made orders with more than one type of payment in a single order.

@@ -18,8 +18,8 @@ Os desafios estão divididos em 3 partes:
 1. [x] Calcule o ticket médio por cliente, considerando apenas clientes do estado de São Paulo. [(Resposta)](/sql/01_intermediate/c01.sql)
 2. [x] Liste os 10 produtos com maior média de valor de frete, considerando apenas produtos com pelo menos 5 vendas. [(Resposta)](/sql/01_intermediate/c02.sql)
 3. [x] Para cada estado de origem do vendedor, calcule a média de tempo entre a aprovação e a entrega ao cliente. [(Resposta)](/sql/01_intermediate/c03.sql)
-4. [ ] Crie uma métrica de “eficiência logística” por cidade do vendedor, definida como: (tempo médio entre aprovação e entrega) / (diferença de prefixos de CEP entre vendedor e cliente).
-5. [ ] Liste as categorias de produto com maior valor de venda total, desconsiderando frete.
+4. [ ] Crie uma métrica de “eficiência logística” por cidade do vendedor, definida como: (tempo médio entre aprovação e entrega) / (diferença de prefixos de CEP entre vendedor e cliente). [(Resposta)](/sql/01_intermediate/c04.sql)
+5. [x] Liste as categorias de produto com maior valor de venda total, desconsiderando frete. [(Resposta)](/sql/01_intermediate/c05.sql)
 6. [ ] Para cada tipo de pagamento, calcule a média de valor por parcela (payment_value / payment_installments).
 7. [ ] Calcule, para cada mês, o percentual de pedidos entregues após a data estimada.
 8. [ ] Liste os clientes que fizeram pedidos com mais de um tipo de pagamento em um mesmo pedido.
