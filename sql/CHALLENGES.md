@@ -20,8 +20,8 @@ The challenges are divided into 3 parts:
 3. [x] For each seller’s origin state, calculate the average time between approval and delivery to the customer. [(Resolution)](/sql/01_intermediate/c03.sql)
 4. [x] Create a “logistics efficiency” metric per seller city, defined as: (average time between approval and delivery) / (difference in ZIP code prefixes between seller and customer). [(Resolution)](/sql/01_intermediate/c04.sql)
 5. [x] List the product categories with the highest total sales value, excluding freight. [(Resolution)](/sql/01_intermediate/c05.sql)
-6. [ ] For each payment type, calculate the average value per installment (payment_value / payment_installments).
-7. [ ] Calculate, for each month, the percentage of orders delivered after the estimated delivery date.
+6. [x] For each payment type, calculate the average value per installment (payment_value / payment_installments). [(Resolution)](/sql/01_intermediate/c06.sql)
+7. [x] Calculate, for each month, the percentage of orders delivered after the estimated delivery date. [(Resolution)](/sql/01_intermediate/c07.sql)
 8. [ ] List the customers who made orders with more than one type of payment in a single order.
 9. [ ] For each product category, calculate the proportion of orders with a 5-star rating relative to the total.
 10. [ ] Identify the 10 cities with the highest number of unique customers and, for each, report the average ticket and average review score.
