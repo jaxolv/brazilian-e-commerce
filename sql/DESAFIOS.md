@@ -22,8 +22,8 @@ Os desafios estão divididos em 3 partes:
 5. [x] Liste as categorias de produto com maior valor de venda total, desconsiderando frete. [(Resolução)](/sql/01_intermediate/c05.sql)
 6. [x] Para cada tipo de pagamento, calcule a média de valor por parcela (payment_value / payment_installments). [(Resolução)](/sql/01_intermediate/c06.sql)
 7. [x] Calcule, para cada mês, o percentual de pedidos entregues após a data estimada. [(Resolução)](/sql/01_intermediate/c07.sql)
-8. [ ] Liste os clientes que fizeram pedidos com mais de um tipo de pagamento em um mesmo pedido.
-9. [ ] Para cada categoria de produto, calcule a proporção de pedidos com avaliação 5 em relação ao total.
+8. [x] Liste os clientes que fizeram pedidos com mais de um tipo de pagamento em um mesmo pedido. [(Resolução)](/sql/01_intermediate/c08.sql)
+9. [x] Para cada categoria de produto, calcule a proporção de pedidos com avaliação 5 em relação ao total. [(Resolução)](/sql/01_intermediate/c09.sql)
 10. [ ] Identifique as 10 cidades com maior número de clientes únicos e, para cada uma, informe o ticket médio e a média de avaliações.
 
 ---
