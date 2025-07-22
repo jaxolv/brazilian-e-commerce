@@ -24,13 +24,13 @@ Os desafios estão divididos em 3 partes:
 7. [x] Calcule, para cada mês, o percentual de pedidos entregues após a data estimada. [(Resolução)](/sql/01_intermediate/c07.sql)
 8. [x] Liste os clientes que fizeram pedidos com mais de um tipo de pagamento em um mesmo pedido. [(Resolução)](/sql/01_intermediate/c08.sql)
 9. [x] Para cada categoria de produto, calcule a proporção de pedidos com avaliação 5 em relação ao total. [(Resolução)](/sql/01_intermediate/c09.sql)
-10. [ ] Identifique as 10 cidades com maior número de clientes únicos e, para cada uma, informe o ticket médio e a média de avaliações.
+10. [x] Identifique as 10 cidades com maior número de clientes únicos e, para cada uma, informe o ticket médio e a média de avaliações. [(Resolução)](/sql/01_intermediate/c10.sql)
 
 ---
 
 ### Avançado I
 
-11. [ ] Para cada ano, liste a categoria mais vendida em número de produtos (quantidade total de order_items).
+11. [x] Para cada ano, liste a categoria mais vendida em número de produtos (quantidade total de order_items). [(Resolução)](/sql/02_advanced_i/c11.sql)
 12. [ ] Liste os pedidos com múltiplos vendedores e calcule o valor total do pedido e o número de vendedores envolvidos.
 13. [ ] Para cada estado, calcule o atraso médio em dias entre a entrega ao cliente e a data estimada, considerando apenas pedidos entregues com atraso.
 14. [ ] Calcule a avaliação média por categoria de produto e ordene da melhor para a pior.

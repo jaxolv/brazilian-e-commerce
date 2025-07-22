@@ -24,13 +24,13 @@ The challenges are divided into 3 parts:
 7. [x] Calculate, for each month, the percentage of orders delivered after the estimated delivery date. [(Resolution)](/sql/01_intermediate/c07.sql)
 8. [x] List the customers who made orders with more than one type of payment in a single order. [(Resolution)](/sql/01_intermediate/c08.sql)
 9. [x] For each product category, calculate the proportion of orders with a 5-star rating relative to the total. [(Resolution)](/sql/01_intermediate/c09.sql)
-10. [ ] Identify the 10 cities with the highest number of unique customers and, for each, report the average ticket and average review score.
+10. [x] Identify the 10 cities with the highest number of unique customers and, for each, report the average ticket and average review score. [(Resolution)](/sql/01_intermediate/c10.sql)
 
 ---
 
 ### Advanced I
 
-11. [ ] For each year, list the top-selling category by number of products sold (total quantity of order_items).
+11. [x] For each year, list the top-selling category by number of products sold (total quantity of order_items). [(Resolution)](/sql/02_advanced_i/c11.sql)
 12. [ ] List orders with multiple sellers and calculate the total order value and the number of sellers involved.
 13. [ ] For each state, calculate the average delay in days between customer delivery and the estimated date, considering only late deliveries.
 14. [ ] Calculate the average review score per product category and sort from best to worst.
