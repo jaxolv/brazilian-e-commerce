@@ -31,8 +31,8 @@ The challenges are divided into 3 parts:
 ### Advanced I
 
 11. [x] For each year, list the top-selling category by number of products sold (total quantity of order_items). [(Resolution)](/sql/02_advanced_i/c11.sql)
-12. [ ] List orders with multiple sellers and calculate the total order value and the number of sellers involved.
-13. [ ] For each state, calculate the average delay in days between customer delivery and the estimated date, considering only late deliveries.
+12. [x] List orders with multiple sellers and calculate the total order value and the number of sellers involved. [(Resolution)](/sql/02_advanced_i/c12.sql)
+13. [x] For each state, calculate the average delay in days between customer delivery and the estimated date, considering only late deliveries. [(Resolution)](/sql/02_advanced_i/c13.sql)
 14. [ ] Calculate the average review score per product category and sort from best to worst.
 15. [ ] For each customer, calculate the average time between their orders (considering only customers with at least 3 orders).
 16. [ ] List the 10 products with the highest return rate, defined as: number of 1-star reviews / total orders of the product.

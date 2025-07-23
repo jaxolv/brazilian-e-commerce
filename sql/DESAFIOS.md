@@ -31,8 +31,8 @@ Os desafios estão divididos em 3 partes:
 ### Avançado I
 
 11. [x] Para cada ano, liste a categoria mais vendida em número de produtos (quantidade total de order_items). [(Resolução)](/sql/02_advanced_i/c11.sql)
-12. [ ] Liste os pedidos com múltiplos vendedores e calcule o valor total do pedido e o número de vendedores envolvidos.
-13. [ ] Para cada estado, calcule o atraso médio em dias entre a entrega ao cliente e a data estimada, considerando apenas pedidos entregues com atraso.
+12. [x] Liste os pedidos com múltiplos vendedores e calcule o valor total do pedido e o número de vendedores envolvidos. [(Resolução)](/sql/02_advanced_i/c12.sql)
+13. [x] Para cada estado, calcule o atraso médio em dias entre a entrega ao cliente e a data estimada, considerando apenas pedidos entregues com atraso. [(Resolução)](/sql/02_advanced_i/c13.sql)
 14. [ ] Calcule a avaliação média por categoria de produto e ordene da melhor para a pior.
 15. [ ] Para cada cliente, calcule o tempo médio entre seus pedidos (considerando apenas clientes com pelo menos 3 pedidos).
 16. [ ] Liste os 10 produtos com maior índice de devolução, definido como: número de avaliações com nota 1 / total de pedidos do produto.
