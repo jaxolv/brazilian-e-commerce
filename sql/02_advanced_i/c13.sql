@@ -20,8 +20,13 @@ order by avg_days_late desc;
 -- (CONVERTING SECONDS IN DAYS, MORE PRECISION)
 select
     customer_state,
-    round(avg(
-    extract(epoch from (order_delivered_customer_date - order_estimated_delivery_date) / (60 * 60 * 24))), 2) as avg_days_late
+    round(
+        avg(
+            extract(
+                epoch from (order_delivered_customer_date - order_estimated_delivery_date) / (60 * 60 * 24)
+            )
+        ), 2
+    ) as avg_days_late
 from orders o
 join customers c on c.customer_id = o.customer_id
 where order_delivered_customer_date > order_estimated_delivery_date
