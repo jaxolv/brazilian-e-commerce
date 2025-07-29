@@ -35,7 +35,7 @@ The challenges are divided into 3 parts:
 13. [x] For each state, calculate the average delay in days between customer delivery and the estimated date, considering only late deliveries. [(Resolution)](/sql/02_advanced_i/c13.sql)
 14. [x] Calculate the average review score per product category and sort from best to worst. [(Resolution)](/sql/02_advanced_i/c14.sql)
 15. [x] For each customer, calculate the average time between their orders (considering only customers with at least 3 orders). [(Resolution)](/sql/02_advanced_i/c15.sql)
-16. [ ] List the 10 products with the highest return rate, defined as: number of 1-star reviews / total orders of the product.
+16. [x] List the 10 products with the highest return rate, defined as: number of 1-star reviews / total orders of the product. [(Resolution)](/sql/02_advanced_i/c16.sql)
 17. [ ] Create a “logistics cost per product” metric, defined as: (average freight of the product / average weight of the product).
 18. [ ] For each payment type, calculate the total amount moved and the average number of installments per order.
 19. [ ] List orders that were delivered even before the approval date (possible system errors).

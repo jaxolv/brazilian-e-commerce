@@ -35,7 +35,7 @@ Os desafios estão divididos em 3 partes:
 13. [x] Para cada estado, calcule o atraso médio em dias entre a entrega ao cliente e a data estimada, considerando apenas pedidos entregues com atraso. [(Resolução)](/sql/02_advanced_i/c13.sql)
 14. [x] Calcule a avaliação média por categoria de produto e ordene da melhor para a pior. [(Resolução)](/sql/02_advanced_i/c14.sql)
 15. [x] Para cada cliente, calcule o tempo médio entre seus pedidos (considerando apenas clientes com pelo menos 3 pedidos). [(Resolução)](/sql/02_advanced_i/c14.sql)
-16. [ ] Liste os 10 produtos com maior índice de devolução, definido como: número de avaliações com nota 1 / total de pedidos do produto.
+16. [x] Liste os 10 produtos com maior índice de devolução, definido como: número de avaliações com nota 1 / total de pedidos do produto. [(Resolução)](/sql/02_advanced_i/c16.sql)
 17. [ ] Crie uma métrica de “custo médio logístico por produto”, definida como: (frete médio do produto / peso médio do produto).
 18. [ ] Para cada tipo de pagamento, calcule o valor total movimentado e o número médio de parcelas por pedido.
 19. [ ] Liste os pedidos que foram entregues antes mesmo da data de aprovação (possíveis erros de sistema).
